@@ -1,0 +1,11 @@
+{
+  "name": "node-noop",
+  "version": "0.0.1",
+  "description": "Implements a noop function",
+  "main": "index.js",
+  "keywords": [
+    "noop"
+  ],
+  "author": "EuanK",
+  "license": "BSD 2-Clause"
+}
