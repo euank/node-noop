@@ -1,21 +1,21 @@
 node-noop
 =========
-Perfection is achieved, not when there is nothing more to add, but when there
-is nothing left to take away. 
+Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away. 
+
     - Antoine de Saint-Exupery
 
 Installation
 ------------
-`
+```
 npm install node-noop
-`
+```
 
 Usage
 -----
-`
+```
 var noop = require('node-noop').noop;
 require('fs').writeFile('file.out',"Ignore write failure",noop);
-`
+```
 
 Alternatives
 ------------
