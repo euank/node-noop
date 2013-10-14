@@ -6,6 +6,7 @@
   "keywords": [
     "noop"
   ],
+  "repository": "git://github.com/euank/node-noop.git",
   "author": "EuanK",
   "license": "BSD 2-Clause"
 }
