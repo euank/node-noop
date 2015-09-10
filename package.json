@@ -11,9 +11,8 @@
     "url": "git://github.com/euank/node-noop.git"
   },
   "bugs": {
-    "url": "https://github.com/euank/node-noop/issues",
-    "email": "euank@euank.com"
+    "url": "https://github.com/euank/node-noop/issues"
   },
   "author": "EuanK",
-  "license": "BSD 2-Clause"
+  "license": "BSD-2-Clause"
 }
