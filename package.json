@@ -1,6 +1,6 @@
 {
   "name": "node-noop",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Implements a noop function",
   "main": "index.js",
   "keywords": [
