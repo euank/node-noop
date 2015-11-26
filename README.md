@@ -4,6 +4,11 @@ Perfection is achieved, not when there is nothing more to add, but when there is
 
 - Antoine de Saint-Exupery
 
+What it does
+------------
+
+![Magikarp uses splash attack](http://i.imgur.com/0xoCTbW.png)
+
 Installation
 ------------
 ```
