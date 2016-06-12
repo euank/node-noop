@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Implements a noop function",
   "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
   "keywords": [
     "noop"
   ],
@@ -14,5 +17,10 @@
     "url": "https://github.com/euank/node-noop/issues"
   },
   "author": "EuanK",
-  "license": "BSD-2-Clause"
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "benchmark": "^2.1.0",
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
 }
