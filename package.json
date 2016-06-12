@@ -4,7 +4,8 @@
   "description": "Implements a noop function",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "benchmark": "node bench/*.js"
   },
   "keywords": [
     "noop"
