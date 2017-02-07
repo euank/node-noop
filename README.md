@@ -22,6 +22,10 @@ var noop = require('node-noop').noop;
 require('fs').writeFile('file.out',"Ignore write failure",noop);
 ```
 
+Reviews
+-------
+> "Everything that is wrong with the Node ecosystem." &mdash; An enlightened Reddit user
+
 Alternatives
 ------------
 The npm package `noop` (github
