@@ -1,5 +1,10 @@
 var assert = require('chai').assert;
 var noop = require('..');
+var util = require('util');
+
+function getStringRepresentation(obj) {
+  return util.inspect(obj, {depth: null});
+}
 
 describe('noop', function() {
   it('should be a function', function() {
@@ -10,8 +15,8 @@ describe('noop', function() {
     assert.isUndefined(noop.noop("some args", 1, 2, [3]));
   });
   it('should not mutate global', function() {
-    var globalBefore = global;
+    var globalBefore = getStringRepresentation(global);
     noop.noop();
-    assert.equal(globalBefore, global);
+    assert.equal(globalBefore, getStringRepresentation(global));
   });
 });
