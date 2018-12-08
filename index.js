@@ -1,3 +1,3 @@
 (function(exports) {
-  exports.noop = function(){};
+  exports.noop = Function();
 })(typeof module === 'object' && typeof module.exports === 'object' ? module.exports : window);
