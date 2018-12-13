@@ -3,7 +3,7 @@ var noop = require('..');
 var util = require('util');
 
 function getStringRepresentation(obj) {
-  return util.inspect(obj, {depth: null});
+  return util.inspect(obj, {depth: 10});
 }
 
 describe('noop', function() {
