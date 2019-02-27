@@ -4,6 +4,8 @@ Perfection is achieved, not when there is nothing more to add, but when there is
 
 - Antoine de Saint-Exupery
 
+NOTE: Please do not install this module. It was created as a joke. It exposes no functionality, and it is considered bad practice to create modules that lack functionality. This "technique" is also known as [Cargo Cult Programming](https://en.wikipedia.org/wiki/Cargo_cult_programming).
+
 What it does
 ------------
 
