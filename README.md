@@ -31,4 +31,4 @@ Alternatives
 The npm package `noop` (github
 [here](https://github.com/coolaj86/javascript-noop)) already has
 this basic functionality, but it doesn't do it in a very node-like way.
-He just sticks the noop function on the global scope when you require it.
+It just sticks the noop function on the global scope when you require it.
