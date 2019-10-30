@@ -21,7 +21,7 @@
   "license": "BSD-2-Clause",
   "devDependencies": {
     "benchmark": "^2.1.0",
-    "chai": "^3.5.0",
+    "chai": "^4.2.0",
     "mocha": "^2.5.3"
   }
 }
