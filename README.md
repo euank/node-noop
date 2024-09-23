@@ -29,6 +29,8 @@ Reviews
 Alternatives
 ------------
 The npm package `noop` (github
-[here](https://github.com/coolaj86/javascript-noop)) already has
+[here](https://github.com/coolaj86/javascript-noop) already has
 this basic functionality, but it doesn't do it in a very node-like way.
 It just sticks the noop function on the global scope when you require it.
+
+[Here's a list of a lot of noop packages on NPM](https://github.com/tj-commits/noop-packages), including this one.
